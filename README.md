@@ -4,7 +4,7 @@ This project was done using React and Electron.This application allows you to or
 
 ## Contents
 * [Screen Shots](#aplication-screenshots)
-* [Getting Started video](#getting-startedvideo-coming-soon)
+* [Getting Started video](#getting-started-video)
 * [Download](#download-the-zip-file)
 * [Packages used](#aditional-technologies-used)
 
@@ -14,7 +14,7 @@ This project was done using React and Electron.This application allows you to or
 <img style="margin: auto;width: 100%" src="./public/Not%20for%20App/Tittle%20Page.jpg" alt="Movie or Show Page Page" />
 
 
-### [Getting Started(Video Coming Soon)](https://www.youtube.com/watch?v=jBKcNNmAxcM "Go to Youtube Page")
+### [Getting Started Video](https://www.youtube.com/watch?v=jBKcNNmAxcM "Go to Youtube Page")
 <!-- Posting video Soon -->
 
 ### Download the Zip file
