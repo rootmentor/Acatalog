@@ -1,0 +1,77 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "main": "main.js",
+  "author": "Mohith Kumar Bezawada",
+  "productName": "Acatalog",
+  "homepage": "./",
+  "dependencies": {
+    "@electron/remote": "^1.1.0",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "nedb": "^1.8.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-feather": "^2.0.9",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "dev": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm run electron:serve\"",
+    "electron:serve": "wait-on tcp:3000 && electron .",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron:test": "electron .",
+    "package": "electron-packager . \"Acatalog\" --out=\"dist\" --icon=\"Acatalog.ico\"",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "cross-env": "^7.0.3",
+    "electron": "^13.0.1",
+    "electron-builder": "^22.10.5",
+    "electron-packager": "^15.2.0",
+    "wait-on": "^5.3.0"
+  },
+  "build": {
+    "appId": "com.acatalog.app",
+    "productName": "Acatalog",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "nsis": {
+      "include": "build/installer.nsh",
+      "installerIcon": "Acatalog.ico",
+      "uninstallerIcon": "Acatalog.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}
