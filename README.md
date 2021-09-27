@@ -4,7 +4,7 @@ This project was done using React and Electron.This application allows you to or
 
 ## Contents
 * [Screen Shots](#aplication-screenshots)
-* [Getting Started video](#getting-started-video)
+* <a href="https://www.youtube.com/watch?v=jBKcNNmAxcM" target="_blank" title="You will be redircted to Youtube" >Getting Started video</a>
 * [Download](#download-the-zip-file)
 * [Packages used](#aditional-technologies-used)
 
@@ -12,10 +12,6 @@ This project was done using React and Electron.This application allows you to or
 ### Aplication ScreenShots
 <img style="margin: auto;width: 100%" src="./public/Not%20for%20App/Home%20page.jpg" alt="Home Page" />
 <img style="margin: auto;width: 100%" src="./public/Not%20for%20App/Tittle%20Page.jpg" alt="Movie or Show Page Page" />
-
-
-### [Getting Started Video](https://www.youtube.com/watch?v=jBKcNNmAxcM "Go to Youtube Page")
-<!-- Posting video Soon -->
 
 ### Download the Zip file
 * [Version 0.1.0](https://github.com/myselfmohith/Acatalog/releases/download/0.1.0/Acatalog.zip "0.1.0")
