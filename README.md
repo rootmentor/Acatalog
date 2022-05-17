@@ -14,7 +14,7 @@ This project was done using React and Electron.This application allows you to or
 <img style="margin: auto;width: 100%" src="./public/Not%20for%20App/Tittle%20Page.jpg" alt="Movie or Show Page Page" />
 
 ### Download the Zip file
-* [Version 0.1.0](https://github.com/myselfmohith/Acatalog/releases/download/0.1.0/Acatalog.zip "0.1.0")
+* [Version 0.1.1](https://github.com/myselfmohith/Acatalog/releases/download/0.1.0/Acatalog.zip "0.1.0")
 > [click here](https://github.com/myselfmohith/Acatalog/releases "Acatalog Releases") to go to the Release history
 
 ### Aditional technologies Used
